@@ -1,0 +1,31 @@
+name: Change a tag / 修改标签
+description: Propose a clearer meaning, a better glyph or a name in another language. 提议更清楚的含义、更好的图形或某种语言的名称。
+title: "Change: "
+labels: ["change"]
+body:
+  - type: input
+    id: tag
+    attributes:
+      label: Tag / 标签
+      description: Its identifier or TID, such as `free` or 1012. 编号或 TID，例如 `free` 或 1012。
+    validations:
+      required: true
+  - type: checkboxes
+    id: what
+    attributes:
+      label: What to change / 修改哪里
+      options:
+        - label: Meaning / 含义
+        - label: Glyph / 图形
+        - label: Name in a language / 某种语言的名称
+        - label: Something else / 其他
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal / 提议
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why / 理由

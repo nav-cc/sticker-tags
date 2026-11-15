@@ -1,0 +1,41 @@
+name: New tag / 新标签
+description: Propose a new tag for the vocabulary. 提议在词表里增加一个标签。
+title: "New tag: "
+labels: ["new tag"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A tag states a fact about an object, never a judgment, and there are no negative tags. Nav.cc decides whether a proposal is adopted.
+        标签只陈述对象的事实，不做评价，也不设否定标签。提议是否采纳由 Nav.cc 决定。
+  - type: input
+    id: identifier
+    attributes:
+      label: Identifier / 编号
+      description: Lowercase letters, digits and hyphens, such as `open-source`. 小写英文字母、数字和连字符，例如 `open-source`。
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: English name / 英文名称
+    validations:
+      required: true
+  - type: textarea
+    id: meaning
+    attributes:
+      label: Meaning / 含义
+      description: One or two sentences about the object itself. 用一两句话说明对象本身的情况。
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it is needed / 为什么需要
+    validations:
+      required: true
+  - type: textarea
+    id: glyph
+    attributes:
+      label: Glyph idea (optional) / 图形设想（可选）
+      description: A sketch or a description. It must be recognizable at 14 pixels and must not be a company's logo. 草图或文字描述。要在 14 像素下能认出来，不能是公司的标志。
