@@ -29,6 +29,7 @@
 
 网址导航、目录、软件目录和应用商店都会在每张卡片上放一排小标签：免费吗，有没有手机应用，要不要注册，有没有需要留意的地方。Sticker Tags 给这些标签一套共用的词表。每个标签有一个编号、一个永久数字编号（TID）、12 种语言的名称和准确的含义，画成圆角正方形，小到 14 像素也能分辨。
 
+- **Nav.cc 的附属项目：** Sticker Tags 由 [Nav.cc](https://nav.cc) 编辑和维护。
 - **标准正文：** 以 https://nav.cc/standards/sticker-tags/ 上的为准。本仓库存有一份副本：[STANDARD.md](STANDARD.md)（英文，为准）和 [STANDARD.zh-Hans.md](STANDARD.zh-Hans.md)（简体中文译文）。
 - **首批标签：** 20 个，分六组，以后会陆续增加。
 
