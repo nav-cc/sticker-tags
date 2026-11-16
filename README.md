@@ -37,7 +37,7 @@ English | [简体中文](README.zh-Hans.md)
 <img src="svg/custom.svg" width="32" height="32" alt="Customizable" title="Customizable">
 </p>
 
-Directories, start pages, catalogs and app stores put a row of small badges on each card: is it free, is there a phone app, does it need an account, is there something to be careful about. Sticker Tags gives those badges one shared vocabulary. Each tag has an identifier, a permanent number (TID), names in twelve languages and an exact meaning, and is drawn as a rounded square that can still be told apart at 14 pixels.
+Directories, start pages, catalogs and app stores put a row of small badges on each card: is it free, is there a phone app, does it need an account, is there something to be careful about. Sticker Tags gives those badges one shared vocabulary. Each tag has an identifier, a permanent number (TID), names in twelve languages and an exact meaning, and a sample drawing, a rounded square, that can still be told apart at 14 pixels. The rounded square is the shape of the samples; you may show the tags in any shape, a circle for instance.
 
 - **A Nav.cc project:** Sticker Tags is a project of [Nav.cc](https://nav.cc), which edits and maintains it.
 - **The standard:** the canonical text is at https://nav.cc/standards/sticker-tags/. This repository holds a copy: [STANDARD.md](STANDARD.md) (English, canonical) and [STANDARD.zh-Hans.md](STANDARD.zh-Hans.md) (简体中文).

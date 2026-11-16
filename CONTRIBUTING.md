@@ -17,7 +17,7 @@ These come from the standard itself:
 1. It states a fact about an object, never a judgment such as "good" or "recommended".
 2. There are no negative tags: no "not free", no "no iOS app".
 3. Its meaning explains the tag and nothing else. How a user decides which object gets the tag, or how it is shown, is left to the user.
-4. Its glyph carries the meaning and can be recognized at a glance, down to 14 pixels: a square with rounded corners, vector graphics, no text characters, no company's logo.
+4. Its glyph carries the meaning and can be recognized at a glance, down to 14 pixels: vector graphics, no text characters, no company's logo. Draw the sample as a square with rounded corners, like the others.
 
 ## How decisions are made
 
@@ -48,7 +48,7 @@ By opening an issue or a pull request, you agree that what you contribute is lic
 1. 只陈述对象的事实，不做「好用」「推荐」之类的评价。
 2. 不设否定标签：没有「不免费」，也没有「没有 iOS 应用」。
 3. 含义只解释标签本身。使用者怎么判断哪个对象该加这个标签、怎么显示，由使用者自己决定。
-4. 图形要正确表达含义，一眼就能认出来，小到 14 像素也一样：圆角正方形、矢量图，不用文字字符，不用任何公司的标志。
+4. 图形要正确表达含义，一眼就能认出来，小到 14 像素也一样：矢量图，不用文字字符，不用任何公司的标志。样图和其他标签一样画成圆角正方形。
 
 ### 怎么决定
 

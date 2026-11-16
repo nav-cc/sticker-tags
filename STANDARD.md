@@ -14,7 +14,7 @@ Web directories, start pages, software catalogs and app stores put a row of smal
 Sticker Tags defines the tags themselves:
 
 1. **Vocabulary**: which tags exist, and each tag's identifier, TID, names and exact meaning.
-2. **Appearance**: the shape of a tag and the smallest size it may be shown at (section 6).
+2. **Appearance**: the shape of the sample drawings and the smallest size a tag may be shown at (section 6).
 
 How tags are used, such as which object is given which tag, on what evidence, and how tags are shown or exchanged, is left to their users. Users may draw their own glyphs and colors; the showcase in section 5 shows Nav.cc's.
 
@@ -82,15 +82,15 @@ Thirty tags in six groups: notices (TID 1001 to 1004), type (1005 to 1010 and 10
 ### 6.1 Shape and glyph
 
 1. **Meaning and recognition come first.** A tag's glyph and colors **MUST** carry the tag's meaning correctly, and the tag **MUST** be recognizable at a glance, down to the smallest size of section 6.2. Every other rule of this section serves this one.
-2. A tag **MUST** be drawn as a square with rounded corners. The corner radius **SHOULD** be between 20% and 25% of the side; Nav.cc uses 22%.
+2. The sample drawings, that is the showcase in section 5 and the images Nav.cc serves, draw each tag as a square with rounded corners, the corner radius 22% of the side. This shape is the standard for the samples only: a user **MAY** show tags in any shape, such as a circle, as long as item 1 holds.
 3. The glyph **MUST** be vector graphics, such as SVG. It **MUST NOT** be a raster image (PNG, JPEG, WebP and the like), which blurs when scaled, nor a character set in a font, whose look depends on the fonts of the device.
-4. The glyph may use as many colors as its meaning needs. It is centered on the square and **SHOULD** take 65% to 75% of the side; Nav.cc draws its glyphs on a 16×16 grid and gives them 70%. A glyph **MAY** take more where its design calls for it, as long as a rim of the square still shows: the disc of `free` takes 87.5%.
+4. The glyph may use as many colors as its meaning needs. It is centered on the tag and **SHOULD** take 65% to 75% of the tag's width; Nav.cc draws its glyphs on a 16×16 grid and gives them 70%. A glyph **MAY** take more where its design calls for it, as long as a rim of the tag's background still shows: the disc of `free` takes 87.5%.
 5. To help recognition, each color of the glyph **SHOULD** have a contrast ratio of at least 3:1 against the color it sits on (WCAG 2.2, non-text contrast).
 6. Tags **MUST NOT** be drawn to look like a certification, a medal or a rating.
 
 ### 6.2 Size
 
-1. A tag **MUST NOT** be shown smaller than 14 CSS pixels a side. This is the smallest size at which every glyph of this standard can still be told apart; it was checked by eye at a device pixel ratio of 1.
+1. A tag **MUST NOT** be shown smaller than 14 CSS pixels across, whatever its shape. This is the smallest size at which every glyph of this standard can still be told apart; it was checked by eye at a device pixel ratio of 1.
 2. A user who draws glyphs of their own **SHOULD** check them at that size, and **MUST** use a larger minimum if they cannot be told apart.
 3. Section 5 shows every tag at three sizes: large (48 px), medium (24 px) and the smallest allowed (14 px).
 
