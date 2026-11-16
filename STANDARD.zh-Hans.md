@@ -1,6 +1,6 @@
 # Sticker Tags：通用属性标签标准
 
-> **版本 1.0**，Nav.cc 于 2026-11-16 发布。
+> **版本 1.1**，Nav.cc 于 2026-11-16 发布。
 > **地址**：https://nav.cc/standards/sticker-tags/
 > **仓库**：https://github.com/nav-cc/sticker-tags（图形、数据和提议）
 > **以英文版为准**：本文是中文译文，仅供参考；与英文版不一致时，以英文版为准。[阅读英文版](STANDARD.md)
@@ -29,7 +29,7 @@ Sticker Tags 只定义标签本身：
 | 对象 | 标签所标的东西：网站、在线服务、应用，或其他任何可以被列出的东西。 |
 | 标签 | 本标准词表中的一项属性，例如 `free`、`ios`。 |
 | 标签编号 | 标签的机器可读名称：小写英文字母、数字和连字符，例如 `open-source`。 |
-| TID | 标签的永久数字编号：四位数，按第 5 节总览的顺序从 1001 起，`caution` 是 1001。 |
+| TID | 标签的永久数字编号：四位数，从 1001 起。1.0 版的 20 个标签按第 5 节总览的顺序编号，`caution` 是 1001；之后的新标签取下一个空着的号（第 7 节）。 |
 | 使用者 | 给对象加标签、显示标签或发布标签数据的任何一方：目录、导航站、应用商店、数据集等。 |
 
 ## 4. 基本原则
@@ -42,7 +42,7 @@ Sticker Tags 只定义标签本身：
 
 ## 5. 词表
 
-一共 20 个标签，分六组：提醒（TID 1001 到 1004）、类型（1005 到 1010）、开源（1011）、费用与账号（1012 到 1014）、平台（1015 到 1018）、来源与自定义（1019 和 1020）。每个标签有一个编号和一个 TID（第 3 节）。总览把所有标签集中在一处，每个标签按第 6.2 节的三种尺寸（大、中、允许的最小尺寸）各示一次，并列出 TID、名称、编号和含义。
+一共 30 个标签，分六组：提醒（TID 1001 到 1004）、类型（1005 到 1010，1021 到 1026）、开源（1011）、费用与账号（1012 到 1014，1027 和 1028）、平台（1015 到 1018，1029）、来源与自定义（1019、1020 和 1030）。每个标签有一个编号和一个 TID（第 3 节）；同一组里的标签按总览的顺序排列，不按 TID 排。总览把所有标签集中在一处，每个标签按第 6.2 节的三种尺寸（大、中、允许的最小尺寸）各示一次，并列出 TID、名称、编号和含义。
 
 | 48 px | 24 px | 14 px | TID | 编号 | 名称 | 含义 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -56,14 +56,24 @@ Sticker Tags 只定义标签本身：
 | <img src="svg/portal.svg" width="48" height="48" alt="Portal" title="Portal"> | <img src="svg/portal.svg" width="24" height="24" alt="Portal" title="Portal"> | <img src="svg/portal.svg" width="14" height="14" alt="Portal" title="Portal"> | 1008 | `portal` | 门户 | 搜索引擎或综合门户，访客从这里出发去往别处。 |
 | <img src="svg/store.svg" width="48" height="48" alt="Store" title="Store"> | <img src="svg/store.svg" width="24" height="24" alt="Store" title="Store"> | <img src="svg/store.svg" width="14" height="14" alt="Store" title="Store"> | 1009 | `store` | 商店 | 主要在线销售商品或服务，包括电商平台、二手、比价和外卖平台。 |
 | <img src="svg/software.svg" width="48" height="48" alt="Software" title="Software"> | <img src="svg/software.svg" width="24" height="24" alt="Software" title="Software"> | <img src="svg/software.svg" width="14" height="14" alt="Software" title="Software"> | 1010 | `software` | 软件 | 主要是软件和 IT 相关：开发工具、代码托管、开发文档、云服务和软件产品。 |
+| <img src="svg/ai.svg" width="48" height="48" alt="AI" title="AI"> | <img src="svg/ai.svg" width="24" height="24" alt="AI" title="AI"> | <img src="svg/ai.svg" width="14" height="14" alt="AI" title="AI"> | 1021 | `ai` | AI | 核心功能由人工智能提供，例如对话、写作、生成图片或视频。 |
+| <img src="svg/social.svg" width="48" height="48" alt="Social" title="Social"> | <img src="svg/social.svg" width="24" height="24" alt="Social" title="Social"> | <img src="svg/social.svg" width="14" height="14" alt="Social" title="Social"> | 1022 | `social` | 社交 | 主要用于和他人交流、分享：社交网络、论坛、社区和即时通讯。 |
+| <img src="svg/media.svg" width="48" height="48" alt="Media" title="Media"> | <img src="svg/media.svg" width="24" height="24" alt="Media" title="Media"> | <img src="svg/media.svg" width="14" height="14" alt="Media" title="Media"> | 1023 | `media` | 影音 | 主要提供视频、音乐、播客或直播。 |
+| <img src="svg/game.svg" width="48" height="48" alt="Games" title="Games"> | <img src="svg/game.svg" width="24" height="24" alt="Games" title="Games"> | <img src="svg/game.svg" width="14" height="14" alt="Games" title="Games"> | 1024 | `game` | 游戏 | 主要提供游戏：网页游戏、在线游戏，或游戏平台。 |
+| <img src="svg/finance.svg" width="48" height="48" alt="Finance" title="Finance"> | <img src="svg/finance.svg" width="24" height="24" alt="Finance" title="Finance"> | <img src="svg/finance.svg" width="14" height="14" alt="Finance" title="Finance"> | 1025 | `finance` | 金融 | 主要提供金融服务：银行、支付、投资、保险、借贷或加密资产交易。 |
+| <img src="svg/email.svg" width="48" height="48" alt="Email" title="Email"> | <img src="svg/email.svg" width="24" height="24" alt="Email" title="Email"> | <img src="svg/email.svg" width="14" height="14" alt="Email" title="Email"> | 1026 | `email` | 邮件 | 主要提供电子邮件服务：个人邮箱、企业邮箱或临时邮箱。 |
 | <img src="svg/open-source.svg" width="48" height="48" alt="Open source" title="Open source"> | <img src="svg/open-source.svg" width="24" height="24" alt="Open source" title="Open source"> | <img src="svg/open-source.svg" width="14" height="14" alt="Open source" title="Open source"> | 1011 | `open-source` | 开源 | 这个对象的核心软件，或主要客户端，以 OSI 认可的许可证公开了源代码。 |
 | <img src="svg/free.svg" width="48" height="48" alt="Free" title="Free"> | <img src="svg/free.svg" width="24" height="24" alt="Free" title="Free"> | <img src="svg/free.svg" width="14" height="14" alt="Free" title="Free"> | 1012 | `free` | 免费 | 核心功能可以免费使用。 |
 | <img src="svg/paid.svg" width="48" height="48" alt="Paid" title="Paid"> | <img src="svg/paid.svg" width="24" height="24" alt="Paid" title="Paid"> | <img src="svg/paid.svg" width="14" height="14" alt="Paid" title="Paid"> | 1013 | `paid` | 付费 | 核心功能要付费：按订阅、按量或按交易收费；或者有免费档，但核心功能要付费解锁。 |
+| <img src="svg/trial.svg" width="48" height="48" alt="Free trial" title="Free trial"> | <img src="svg/trial.svg" width="24" height="24" alt="Free trial" title="Free trial"> | <img src="svg/trial.svg" width="14" height="14" alt="Free trial" title="Free trial"> | 1027 | `trial` | 试用 | 付费的核心功能可以免费试用一段时间。 |
+| <img src="svg/ads.svg" width="48" height="48" alt="Ads" title="Ads"> | <img src="svg/ads.svg" width="24" height="24" alt="Ads" title="Ads"> | <img src="svg/ads.svg" width="14" height="14" alt="Ads" title="Ads"> | 1028 | `ads` | 广告 | 这个对象显示广告。 |
 | <img src="svg/account.svg" width="48" height="48" alt="Account required" title="Account required"> | <img src="svg/account.svg" width="24" height="24" alt="Account required" title="Account required"> | <img src="svg/account.svg" width="14" height="14" alt="Account required" title="Account required"> | 1014 | `account` | 需账号 | 使用核心功能必须先注册或登录。 |
+| <img src="svg/web.svg" width="48" height="48" alt="Web" title="Web"> | <img src="svg/web.svg" width="24" height="24" alt="Web" title="Web"> | <img src="svg/web.svg" width="14" height="14" alt="Web" title="Web"> | 1029 | `web` | 网页版 | 有官方的网页版：在浏览器里就能使用核心功能，不用安装。 |
 | <img src="svg/ios.svg" width="48" height="48" alt="iOS" title="iOS"> | <img src="svg/ios.svg" width="24" height="24" alt="iOS" title="iOS"> | <img src="svg/ios.svg" width="14" height="14" alt="iOS" title="iOS"> | 1015 | `ios` | iOS | 有官方的 iPhone 或 iPad 应用。 |
 | <img src="svg/android.svg" width="48" height="48" alt="Android" title="Android"> | <img src="svg/android.svg" width="24" height="24" alt="Android" title="Android"> | <img src="svg/android.svg" width="14" height="14" alt="Android" title="Android"> | 1016 | `android` | Android | 有官方的 Android 应用。 |
 | <img src="svg/desktop.svg" width="48" height="48" alt="Desktop" title="Desktop"> | <img src="svg/desktop.svg" width="24" height="24" alt="Desktop" title="Desktop"> | <img src="svg/desktop.svg" width="14" height="14" alt="Desktop" title="Desktop"> | 1017 | `desktop` | 桌面 | 有官方的 Windows、macOS 或 Linux 桌面客户端。 |
 | <img src="svg/extension.svg" width="48" height="48" alt="Extension" title="Extension"> | <img src="svg/extension.svg" width="24" height="24" alt="Extension" title="Extension"> | <img src="svg/extension.svg" width="14" height="14" alt="Extension" title="Extension"> | 1018 | `extension` | 扩展 | 有官方的浏览器扩展。 |
+| <img src="svg/nonprofit.svg" width="48" height="48" alt="Nonprofit" title="Nonprofit"> | <img src="svg/nonprofit.svg" width="24" height="24" alt="Nonprofit" title="Nonprofit"> | <img src="svg/nonprofit.svg" width="14" height="14" alt="Nonprofit" title="Nonprofit"> | 1030 | `nonprofit` | 非营利 | 这个对象由非营利组织运营。 |
 | <img src="svg/personal.svg" width="48" height="48" alt="Personal" title="Personal"> | <img src="svg/personal.svg" width="24" height="24" alt="Personal" title="Personal"> | <img src="svg/personal.svg" width="14" height="14" alt="Personal" title="Personal"> | 1019 | `personal` | 个人 | 这个对象由个人或极小的内部团队创建。 |
 | <img src="svg/custom.svg" width="48" height="48" alt="Customizable" title="Customizable"> | <img src="svg/custom.svg" width="24" height="24" alt="Customizable" title="Customizable"> | <img src="svg/custom.svg" width="14" height="14" alt="Customizable" title="Customizable"> | 1020 | `custom` | 自定义 | 这个对象支持自定义修改：访客可以修改它显示的内容。 |
 
@@ -118,13 +128,23 @@ Sticker Tags 只定义标签本身：
 | 1008 | `portal` | Portal | Portail | Portal | بوابة | Portal | Портал | Portal | ポータル | 포털 | Πύλη | 门户 | 入口 |
 | 1009 | `store` | Store | Boutique | Tienda | متجر | Loja | Магазин | Shop | ショップ | 상점 | Κατάστημα | 商店 | 商店 |
 | 1010 | `software` | Software | Logiciel | Software | برمجيات | Software | ПО | Software | ソフトウェア | 소프트웨어 | Λογισμικό | 软件 | 軟體 |
+| 1021 | `ai` | AI | IA | IA | ذكاء اصطناعي | IA | ИИ | KI | AI | AI | ΤΝ | AI | AI |
+| 1022 | `social` | Social | Social | Social | تواصل اجتماعي | Social | Соцсети | Sozial | ソーシャル | 소셜 | Κοινωνικά | 社交 | 社交 |
+| 1023 | `media` | Media | Médias | Multimedia | وسائط | Mídia | Медиа | Medien | 動画・音楽 | 미디어 | Πολυμέσα | 影音 | 影音 |
+| 1024 | `game` | Games | Jeux | Juegos | ألعاب | Jogos | Игры | Spiele | ゲーム | 게임 | Παιχνίδια | 游戏 | 遊戲 |
+| 1025 | `finance` | Finance | Finance | Finanzas | مالية | Finanças | Финансы | Finanzen | 金融 | 금융 | Οικονομικά | 金融 | 金融 |
+| 1026 | `email` | Email | E-mail | Correo | بريد إلكتروني | E-mail | Почта | E-Mail | メール | 이메일 | Email | 邮件 | 郵件 |
 | 1011 | `open-source` | Open source | Open source | Código abierto | مفتوح المصدر | Código aberto | Открытый код | Open Source | オープンソース | 오픈 소스 | Ανοιχτός κώδικας | 开源 | 開源 |
 | 1012 | `free` | Free | Gratuit | Gratis | مجاني | Grátis | Бесплатно | Kostenlos | 無料 | 무료 | Δωρεάν | 免费 | 免費 |
 | 1013 | `paid` | Paid | Payant | De pago | مدفوع | Pago | Платно | Kostenpflichtig | 有料 | 유료 | Επί πληρωμή | 付费 | 付費 |
+| 1027 | `trial` | Free trial | Essai gratuit | Prueba gratis | تجربة مجانية | Teste grátis | Пробный период | Testphase | 試用 | 체험판 | Δοκιμή | 试用 | 試用 |
+| 1028 | `ads` | Ads | Publicité | Anuncios | إعلانات | Anúncios | Реклама | Werbung | 広告あり | 광고 | Διαφημίσεις | 广告 | 廣告 |
 | 1014 | `account` | Account required | Compte requis | Cuenta obligatoria | حساب مطلوب | Conta necessária | Нужен аккаунт | Konto nötig | アカウント必須 | 계정 필요 | Απαιτείται λογαριασμός | 需账号 | 需帳號 |
+| 1029 | `web` | Web | Web | Web | ويب | Web | Веб | Web | ウェブ版 | 웹 | Web | 网页版 | 網頁版 |
 | 1015 | `ios` | iOS | iOS | iOS | iOS | iOS | iOS | iOS | iOS | iOS | iOS | iOS | iOS |
 | 1016 | `android` | Android | Android | Android | Android | Android | Android | Android | Android | Android | Android | Android | Android |
 | 1017 | `desktop` | Desktop | Ordinateur | Escritorio | سطح المكتب | Computador | Компьютер | Desktop | デスクトップ | 데스크톱 | Υπολογιστής | 桌面 | 桌面 |
 | 1018 | `extension` | Extension | Extension | Extensión | إضافة | Extensão | Расширение | Erweiterung | 拡張機能 | 확장 프로그램 | Επέκταση | 扩展 | 擴充功能 |
+| 1030 | `nonprofit` | Nonprofit | Non lucratif | Sin ánimo de lucro | غير ربحي | Sem fins lucrativos | Некоммерческий | Gemeinnützig | 非営利 | 비영리 | Μη κερδοσκοπικό | 非营利 | 非營利 |
 | 1019 | `personal` | Personal | Personnel | Personal | شخصي | Pessoal | Личный | Persönlich | 個人 | 개인 | Προσωπικό | 个人 | 個人 |
 | 1020 | `custom` | Customizable | Personnalisable | Personalizable | قابل للتخصيص | Personalizável | Настраиваемый | Anpassbar | カスタマイズ可 | 사용자 지정 가능 | Προσαρμόσιμο | 自定义 | 自訂 |
