@@ -15,33 +15,33 @@ English | [简体中文](README.zh-Hans.md)
 <img src="svg/portal.svg" width="32" height="32" alt="Portal" title="Portal">
 <img src="svg/store.svg" width="32" height="32" alt="Store" title="Store">
 <img src="svg/software.svg" width="32" height="32" alt="Software" title="Software">
+<img src="svg/open-source.svg" width="32" height="32" alt="Open source" title="Open source">
+<img src="svg/free.svg" width="32" height="32" alt="Free" title="Free">
+<img src="svg/paid.svg" width="32" height="32" alt="Paid" title="Paid">
+<img src="svg/account.svg" width="32" height="32" alt="Account required" title="Account required">
+<img src="svg/ios.svg" width="32" height="32" alt="iOS" title="iOS">
+<img src="svg/android.svg" width="32" height="32" alt="Android" title="Android">
+<img src="svg/desktop.svg" width="32" height="32" alt="Desktop" title="Desktop">
+<img src="svg/extension.svg" width="32" height="32" alt="Extension" title="Extension">
+<img src="svg/personal.svg" width="32" height="32" alt="Personal" title="Personal">
+<img src="svg/custom.svg" width="32" height="32" alt="Customizable" title="Customizable">
 <img src="svg/ai.svg" width="32" height="32" alt="AI" title="AI">
 <img src="svg/social.svg" width="32" height="32" alt="Social" title="Social">
 <img src="svg/media.svg" width="32" height="32" alt="Media" title="Media">
 <img src="svg/game.svg" width="32" height="32" alt="Games" title="Games">
 <img src="svg/finance.svg" width="32" height="32" alt="Finance" title="Finance">
 <img src="svg/email.svg" width="32" height="32" alt="Email" title="Email">
-<img src="svg/open-source.svg" width="32" height="32" alt="Open source" title="Open source">
-<img src="svg/free.svg" width="32" height="32" alt="Free" title="Free">
-<img src="svg/paid.svg" width="32" height="32" alt="Paid" title="Paid">
 <img src="svg/trial.svg" width="32" height="32" alt="Free trial" title="Free trial">
 <img src="svg/ads.svg" width="32" height="32" alt="Ads" title="Ads">
-<img src="svg/account.svg" width="32" height="32" alt="Account required" title="Account required">
 <img src="svg/web.svg" width="32" height="32" alt="Web" title="Web">
-<img src="svg/ios.svg" width="32" height="32" alt="iOS" title="iOS">
-<img src="svg/android.svg" width="32" height="32" alt="Android" title="Android">
-<img src="svg/desktop.svg" width="32" height="32" alt="Desktop" title="Desktop">
-<img src="svg/extension.svg" width="32" height="32" alt="Extension" title="Extension">
 <img src="svg/nonprofit.svg" width="32" height="32" alt="Nonprofit" title="Nonprofit">
-<img src="svg/personal.svg" width="32" height="32" alt="Personal" title="Personal">
-<img src="svg/custom.svg" width="32" height="32" alt="Customizable" title="Customizable">
 </p>
 
 Directories, start pages, catalogs and app stores put a row of small badges on each card: is it free, is there a phone app, does it need an account, is there something to be careful about. Sticker Tags gives those badges one shared vocabulary. Each tag has an identifier, a permanent number (TID), names in twelve languages and an exact meaning, and a sample drawing, a rounded square, that can still be told apart at 14 pixels. The rounded square is the shape of the samples; you may show the tags in any shape, a circle for instance.
 
 - **A Nav.cc project:** Sticker Tags is a project of [Nav.cc](https://nav.cc), which edits and maintains it.
 - **The standard:** the canonical text is at https://nav.cc/standards/sticker-tags/. This repository holds a copy: [STANDARD.md](STANDARD.md) (English, canonical) and [STANDARD.zh-Hans.md](STANDARD.zh-Hans.md) (简体中文).
-- **First batch:** 30 tags in six groups. More will follow.
+- **Tags:** 30 so far, in one list by TID. More will follow.
 
 ## What is here
 
@@ -49,7 +49,7 @@ Directories, start pages, catalogs and app stores put a row of small badges on e
 | --- | --- |
 | `STANDARD.md`, `STANDARD.zh-Hans.md` | The text of the standard. |
 | `svg/` | One SVG file per tag, as Nav.cc draws it. |
-| `tags.json` | Every tag: TID, identifier, group, names in twelve languages, meaning and SVG file. |
+| `tags.json` | Every tag: TID, identifier, names in twelve languages, meaning and SVG file. |
 
 ## Using the tags
 

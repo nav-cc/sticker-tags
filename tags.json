@@ -8,7 +8,6 @@
     {
       "tid": 1001,
       "id": "caution",
-      "group": "notices",
       "names": {
         "en": "Caution",
         "fr": "Attention",
@@ -33,7 +32,6 @@
     {
       "tid": 1002,
       "id": "danger",
-      "group": "notices",
       "names": {
         "en": "Danger",
         "fr": "Danger",
@@ -58,7 +56,6 @@
     {
       "tid": 1003,
       "id": "licensed",
-      "group": "notices",
       "names": {
         "en": "Licensed",
         "fr": "Autorisé",
@@ -83,7 +80,6 @@
     {
       "tid": 1004,
       "id": "sensitive",
-      "group": "notices",
       "names": {
         "en": "Sensitive",
         "fr": "Sensible",
@@ -108,7 +104,6 @@
     {
       "tid": 1005,
       "id": "government",
-      "group": "type",
       "names": {
         "en": "Government",
         "fr": "État",
@@ -133,7 +128,6 @@
     {
       "tid": 1006,
       "id": "education",
-      "group": "type",
       "names": {
         "en": "Education",
         "fr": "Éducation",
@@ -158,7 +152,6 @@
     {
       "tid": 1007,
       "id": "news",
-      "group": "type",
       "names": {
         "en": "News",
         "fr": "Actualités",
@@ -183,7 +176,6 @@
     {
       "tid": 1008,
       "id": "portal",
-      "group": "type",
       "names": {
         "en": "Portal",
         "fr": "Portail",
@@ -208,7 +200,6 @@
     {
       "tid": 1009,
       "id": "store",
-      "group": "type",
       "names": {
         "en": "Store",
         "fr": "Boutique",
@@ -233,7 +224,6 @@
     {
       "tid": 1010,
       "id": "software",
-      "group": "type",
       "names": {
         "en": "Software",
         "fr": "Logiciel",
@@ -256,159 +246,8 @@
       "image": "https://nav.cc/sticker-tags/software.svg"
     },
     {
-      "tid": 1021,
-      "id": "ai",
-      "group": "type",
-      "names": {
-        "en": "AI",
-        "fr": "IA",
-        "es": "IA",
-        "ar": "ذكاء اصطناعي",
-        "pt": "IA",
-        "ru": "ИИ",
-        "de": "KI",
-        "ja": "AI",
-        "ko": "AI",
-        "el": "ΤΝ",
-        "zh-Hans": "AI",
-        "zh-Hant": "AI"
-      },
-      "meaning": {
-        "en": "The core features are provided by artificial intelligence, such as chat, writing, or generating images or video.",
-        "zh-Hans": "核心功能由人工智能提供，例如对话、写作、生成图片或视频。"
-      },
-      "svg": "svg/ai.svg",
-      "image": "https://nav.cc/sticker-tags/ai.svg"
-    },
-    {
-      "tid": 1022,
-      "id": "social",
-      "group": "type",
-      "names": {
-        "en": "Social",
-        "fr": "Social",
-        "es": "Social",
-        "ar": "تواصل اجتماعي",
-        "pt": "Social",
-        "ru": "Соцсети",
-        "de": "Sozial",
-        "ja": "ソーシャル",
-        "ko": "소셜",
-        "el": "Κοινωνικά",
-        "zh-Hans": "社交",
-        "zh-Hant": "社交"
-      },
-      "meaning": {
-        "en": "Mainly for talking and sharing with other people: social networks, forums, communities and instant messaging.",
-        "zh-Hans": "主要用于和他人交流、分享：社交网络、论坛、社区和即时通讯。"
-      },
-      "svg": "svg/social.svg",
-      "image": "https://nav.cc/sticker-tags/social.svg"
-    },
-    {
-      "tid": 1023,
-      "id": "media",
-      "group": "type",
-      "names": {
-        "en": "Media",
-        "fr": "Médias",
-        "es": "Multimedia",
-        "ar": "وسائط",
-        "pt": "Mídia",
-        "ru": "Медиа",
-        "de": "Medien",
-        "ja": "動画・音楽",
-        "ko": "미디어",
-        "el": "Πολυμέσα",
-        "zh-Hans": "影音",
-        "zh-Hant": "影音"
-      },
-      "meaning": {
-        "en": "Mainly offers video, music, podcasts or live streams.",
-        "zh-Hans": "主要提供视频、音乐、播客或直播。"
-      },
-      "svg": "svg/media.svg",
-      "image": "https://nav.cc/sticker-tags/media.svg"
-    },
-    {
-      "tid": 1024,
-      "id": "game",
-      "group": "type",
-      "names": {
-        "en": "Games",
-        "fr": "Jeux",
-        "es": "Juegos",
-        "ar": "ألعاب",
-        "pt": "Jogos",
-        "ru": "Игры",
-        "de": "Spiele",
-        "ja": "ゲーム",
-        "ko": "게임",
-        "el": "Παιχνίδια",
-        "zh-Hans": "游戏",
-        "zh-Hant": "遊戲"
-      },
-      "meaning": {
-        "en": "Mainly offers games: browser games, online games, or a platform for games.",
-        "zh-Hans": "主要提供游戏：网页游戏、在线游戏，或游戏平台。"
-      },
-      "svg": "svg/game.svg",
-      "image": "https://nav.cc/sticker-tags/game.svg"
-    },
-    {
-      "tid": 1025,
-      "id": "finance",
-      "group": "type",
-      "names": {
-        "en": "Finance",
-        "fr": "Finance",
-        "es": "Finanzas",
-        "ar": "مالية",
-        "pt": "Finanças",
-        "ru": "Финансы",
-        "de": "Finanzen",
-        "ja": "金融",
-        "ko": "금융",
-        "el": "Οικονομικά",
-        "zh-Hans": "金融",
-        "zh-Hant": "金融"
-      },
-      "meaning": {
-        "en": "Mainly provides financial services: banking, payments, investing, insurance, lending or trading crypto-assets.",
-        "zh-Hans": "主要提供金融服务：银行、支付、投资、保险、借贷或加密资产交易。"
-      },
-      "svg": "svg/finance.svg",
-      "image": "https://nav.cc/sticker-tags/finance.svg"
-    },
-    {
-      "tid": 1026,
-      "id": "email",
-      "group": "type",
-      "names": {
-        "en": "Email",
-        "fr": "E-mail",
-        "es": "Correo",
-        "ar": "بريد إلكتروني",
-        "pt": "E-mail",
-        "ru": "Почта",
-        "de": "E-Mail",
-        "ja": "メール",
-        "ko": "이메일",
-        "el": "Email",
-        "zh-Hans": "邮件",
-        "zh-Hant": "郵件"
-      },
-      "meaning": {
-        "en": "Mainly provides email: personal, business or disposable mailboxes.",
-        "zh-Hans": "主要提供电子邮件服务：个人邮箱、企业邮箱或临时邮箱。"
-      },
-      "svg": "svg/email.svg",
-      "image": "https://nav.cc/sticker-tags/email.svg"
-    },
-    {
       "tid": 1011,
       "id": "open-source",
-      "group": "open-source",
       "names": {
         "en": "Open source",
         "fr": "Open source",
@@ -433,7 +272,6 @@
     {
       "tid": 1012,
       "id": "free",
-      "group": "cost-and-account",
       "names": {
         "en": "Free",
         "fr": "Gratuit",
@@ -458,7 +296,6 @@
     {
       "tid": 1013,
       "id": "paid",
-      "group": "cost-and-account",
       "names": {
         "en": "Paid",
         "fr": "Payant",
@@ -481,59 +318,8 @@
       "image": "https://nav.cc/sticker-tags/paid.svg"
     },
     {
-      "tid": 1027,
-      "id": "trial",
-      "group": "cost-and-account",
-      "names": {
-        "en": "Free trial",
-        "fr": "Essai gratuit",
-        "es": "Prueba gratis",
-        "ar": "تجربة مجانية",
-        "pt": "Teste grátis",
-        "ru": "Пробный период",
-        "de": "Testphase",
-        "ja": "試用",
-        "ko": "체험판",
-        "el": "Δοκιμή",
-        "zh-Hans": "试用",
-        "zh-Hant": "試用"
-      },
-      "meaning": {
-        "en": "The paid core features can be tried free for a limited time.",
-        "zh-Hans": "付费的核心功能可以免费试用一段时间。"
-      },
-      "svg": "svg/trial.svg",
-      "image": "https://nav.cc/sticker-tags/trial.svg"
-    },
-    {
-      "tid": 1028,
-      "id": "ads",
-      "group": "cost-and-account",
-      "names": {
-        "en": "Ads",
-        "fr": "Publicité",
-        "es": "Anuncios",
-        "ar": "إعلانات",
-        "pt": "Anúncios",
-        "ru": "Реклама",
-        "de": "Werbung",
-        "ja": "広告あり",
-        "ko": "광고",
-        "el": "Διαφημίσεις",
-        "zh-Hans": "广告",
-        "zh-Hant": "廣告"
-      },
-      "meaning": {
-        "en": "The object shows ads.",
-        "zh-Hans": "这个对象显示广告。"
-      },
-      "svg": "svg/ads.svg",
-      "image": "https://nav.cc/sticker-tags/ads.svg"
-    },
-    {
       "tid": 1014,
       "id": "account",
-      "group": "cost-and-account",
       "names": {
         "en": "Account required",
         "fr": "Compte requis",
@@ -556,34 +342,8 @@
       "image": "https://nav.cc/sticker-tags/account.svg"
     },
     {
-      "tid": 1029,
-      "id": "web",
-      "group": "platforms",
-      "names": {
-        "en": "Web",
-        "fr": "Web",
-        "es": "Web",
-        "ar": "ويب",
-        "pt": "Web",
-        "ru": "Веб",
-        "de": "Web",
-        "ja": "ウェブ版",
-        "ko": "웹",
-        "el": "Web",
-        "zh-Hans": "网页版",
-        "zh-Hant": "網頁版"
-      },
-      "meaning": {
-        "en": "There is an official web version: the core features work in a browser, with nothing to install.",
-        "zh-Hans": "有官方的网页版：在浏览器里就能使用核心功能，不用安装。"
-      },
-      "svg": "svg/web.svg",
-      "image": "https://nav.cc/sticker-tags/web.svg"
-    },
-    {
       "tid": 1015,
       "id": "ios",
-      "group": "platforms",
       "names": {
         "en": "iOS",
         "fr": "iOS",
@@ -608,7 +368,6 @@
     {
       "tid": 1016,
       "id": "android",
-      "group": "platforms",
       "names": {
         "en": "Android",
         "fr": "Android",
@@ -633,7 +392,6 @@
     {
       "tid": 1017,
       "id": "desktop",
-      "group": "platforms",
       "names": {
         "en": "Desktop",
         "fr": "Ordinateur",
@@ -658,7 +416,6 @@
     {
       "tid": 1018,
       "id": "extension",
-      "group": "platforms",
       "names": {
         "en": "Extension",
         "fr": "Extension",
@@ -681,34 +438,8 @@
       "image": "https://nav.cc/sticker-tags/extension.svg"
     },
     {
-      "tid": 1030,
-      "id": "nonprofit",
-      "group": "origin-and-customization",
-      "names": {
-        "en": "Nonprofit",
-        "fr": "Non lucratif",
-        "es": "Sin ánimo de lucro",
-        "ar": "غير ربحي",
-        "pt": "Sem fins lucrativos",
-        "ru": "Некоммерческий",
-        "de": "Gemeinnützig",
-        "ja": "非営利",
-        "ko": "비영리",
-        "el": "Μη κερδοσκοπικό",
-        "zh-Hans": "非营利",
-        "zh-Hant": "非營利"
-      },
-      "meaning": {
-        "en": "The object is run by a nonprofit organization.",
-        "zh-Hans": "这个对象由非营利组织运营。"
-      },
-      "svg": "svg/nonprofit.svg",
-      "image": "https://nav.cc/sticker-tags/nonprofit.svg"
-    },
-    {
       "tid": 1019,
       "id": "personal",
-      "group": "origin-and-customization",
       "names": {
         "en": "Personal",
         "fr": "Personnel",
@@ -733,7 +464,6 @@
     {
       "tid": 1020,
       "id": "custom",
-      "group": "origin-and-customization",
       "names": {
         "en": "Customizable",
         "fr": "Personnalisable",
@@ -754,6 +484,246 @@
       },
       "svg": "svg/custom.svg",
       "image": "https://nav.cc/sticker-tags/custom.svg"
+    },
+    {
+      "tid": 1021,
+      "id": "ai",
+      "names": {
+        "en": "AI",
+        "fr": "IA",
+        "es": "IA",
+        "ar": "ذكاء اصطناعي",
+        "pt": "IA",
+        "ru": "ИИ",
+        "de": "KI",
+        "ja": "AI",
+        "ko": "AI",
+        "el": "ΤΝ",
+        "zh-Hans": "AI",
+        "zh-Hant": "AI"
+      },
+      "meaning": {
+        "en": "The core features are provided by artificial intelligence, such as chat, writing, or generating images or video.",
+        "zh-Hans": "核心功能由人工智能提供，例如对话、写作、生成图片或视频。"
+      },
+      "svg": "svg/ai.svg",
+      "image": "https://nav.cc/sticker-tags/ai.svg"
+    },
+    {
+      "tid": 1022,
+      "id": "social",
+      "names": {
+        "en": "Social",
+        "fr": "Social",
+        "es": "Social",
+        "ar": "تواصل اجتماعي",
+        "pt": "Social",
+        "ru": "Соцсети",
+        "de": "Sozial",
+        "ja": "ソーシャル",
+        "ko": "소셜",
+        "el": "Κοινωνικά",
+        "zh-Hans": "社交",
+        "zh-Hant": "社交"
+      },
+      "meaning": {
+        "en": "Mainly for talking and sharing with other people: social networks, forums, communities and instant messaging.",
+        "zh-Hans": "主要用于和他人交流、分享：社交网络、论坛、社区和即时通讯。"
+      },
+      "svg": "svg/social.svg",
+      "image": "https://nav.cc/sticker-tags/social.svg"
+    },
+    {
+      "tid": 1023,
+      "id": "media",
+      "names": {
+        "en": "Media",
+        "fr": "Médias",
+        "es": "Multimedia",
+        "ar": "وسائط",
+        "pt": "Mídia",
+        "ru": "Медиа",
+        "de": "Medien",
+        "ja": "動画・音楽",
+        "ko": "미디어",
+        "el": "Πολυμέσα",
+        "zh-Hans": "影音",
+        "zh-Hant": "影音"
+      },
+      "meaning": {
+        "en": "Mainly offers video, music, podcasts or live streams.",
+        "zh-Hans": "主要提供视频、音乐、播客或直播。"
+      },
+      "svg": "svg/media.svg",
+      "image": "https://nav.cc/sticker-tags/media.svg"
+    },
+    {
+      "tid": 1024,
+      "id": "game",
+      "names": {
+        "en": "Games",
+        "fr": "Jeux",
+        "es": "Juegos",
+        "ar": "ألعاب",
+        "pt": "Jogos",
+        "ru": "Игры",
+        "de": "Spiele",
+        "ja": "ゲーム",
+        "ko": "게임",
+        "el": "Παιχνίδια",
+        "zh-Hans": "游戏",
+        "zh-Hant": "遊戲"
+      },
+      "meaning": {
+        "en": "Mainly offers games: browser games, online games, or a platform for games.",
+        "zh-Hans": "主要提供游戏：网页游戏、在线游戏，或游戏平台。"
+      },
+      "svg": "svg/game.svg",
+      "image": "https://nav.cc/sticker-tags/game.svg"
+    },
+    {
+      "tid": 1025,
+      "id": "finance",
+      "names": {
+        "en": "Finance",
+        "fr": "Finance",
+        "es": "Finanzas",
+        "ar": "مالية",
+        "pt": "Finanças",
+        "ru": "Финансы",
+        "de": "Finanzen",
+        "ja": "金融",
+        "ko": "금융",
+        "el": "Οικονομικά",
+        "zh-Hans": "金融",
+        "zh-Hant": "金融"
+      },
+      "meaning": {
+        "en": "Mainly provides financial services: banking, payments, investing, insurance, lending or trading crypto-assets.",
+        "zh-Hans": "主要提供金融服务：银行、支付、投资、保险、借贷或加密资产交易。"
+      },
+      "svg": "svg/finance.svg",
+      "image": "https://nav.cc/sticker-tags/finance.svg"
+    },
+    {
+      "tid": 1026,
+      "id": "email",
+      "names": {
+        "en": "Email",
+        "fr": "E-mail",
+        "es": "Correo",
+        "ar": "بريد إلكتروني",
+        "pt": "E-mail",
+        "ru": "Почта",
+        "de": "E-Mail",
+        "ja": "メール",
+        "ko": "이메일",
+        "el": "Email",
+        "zh-Hans": "邮件",
+        "zh-Hant": "郵件"
+      },
+      "meaning": {
+        "en": "Mainly provides email: personal, business or disposable mailboxes.",
+        "zh-Hans": "主要提供电子邮件服务：个人邮箱、企业邮箱或临时邮箱。"
+      },
+      "svg": "svg/email.svg",
+      "image": "https://nav.cc/sticker-tags/email.svg"
+    },
+    {
+      "tid": 1027,
+      "id": "trial",
+      "names": {
+        "en": "Free trial",
+        "fr": "Essai gratuit",
+        "es": "Prueba gratis",
+        "ar": "تجربة مجانية",
+        "pt": "Teste grátis",
+        "ru": "Пробный период",
+        "de": "Testphase",
+        "ja": "試用",
+        "ko": "체험판",
+        "el": "Δοκιμή",
+        "zh-Hans": "试用",
+        "zh-Hant": "試用"
+      },
+      "meaning": {
+        "en": "The paid core features can be tried free for a limited time.",
+        "zh-Hans": "付费的核心功能可以免费试用一段时间。"
+      },
+      "svg": "svg/trial.svg",
+      "image": "https://nav.cc/sticker-tags/trial.svg"
+    },
+    {
+      "tid": 1028,
+      "id": "ads",
+      "names": {
+        "en": "Ads",
+        "fr": "Publicité",
+        "es": "Anuncios",
+        "ar": "إعلانات",
+        "pt": "Anúncios",
+        "ru": "Реклама",
+        "de": "Werbung",
+        "ja": "広告あり",
+        "ko": "광고",
+        "el": "Διαφημίσεις",
+        "zh-Hans": "广告",
+        "zh-Hant": "廣告"
+      },
+      "meaning": {
+        "en": "The object shows ads.",
+        "zh-Hans": "这个对象显示广告。"
+      },
+      "svg": "svg/ads.svg",
+      "image": "https://nav.cc/sticker-tags/ads.svg"
+    },
+    {
+      "tid": 1029,
+      "id": "web",
+      "names": {
+        "en": "Web",
+        "fr": "Web",
+        "es": "Web",
+        "ar": "ويب",
+        "pt": "Web",
+        "ru": "Веб",
+        "de": "Web",
+        "ja": "ウェブ版",
+        "ko": "웹",
+        "el": "Web",
+        "zh-Hans": "网页版",
+        "zh-Hant": "網頁版"
+      },
+      "meaning": {
+        "en": "There is an official web version: the core features work in a browser, with nothing to install.",
+        "zh-Hans": "有官方的网页版：在浏览器里就能使用核心功能，不用安装。"
+      },
+      "svg": "svg/web.svg",
+      "image": "https://nav.cc/sticker-tags/web.svg"
+    },
+    {
+      "tid": 1030,
+      "id": "nonprofit",
+      "names": {
+        "en": "Nonprofit",
+        "fr": "Non lucratif",
+        "es": "Sin ánimo de lucro",
+        "ar": "غير ربحي",
+        "pt": "Sem fins lucrativos",
+        "ru": "Некоммерческий",
+        "de": "Gemeinnützig",
+        "ja": "非営利",
+        "ko": "비영리",
+        "el": "Μη κερδοσκοπικό",
+        "zh-Hans": "非营利",
+        "zh-Hant": "非營利"
+      },
+      "meaning": {
+        "en": "The object is run by a nonprofit organization.",
+        "zh-Hans": "这个对象由非营利组织运营。"
+      },
+      "svg": "svg/nonprofit.svg",
+      "image": "https://nav.cc/sticker-tags/nonprofit.svg"
     }
   ]
 }

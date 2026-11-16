@@ -15,33 +15,33 @@
 <img src="svg/portal.svg" width="32" height="32" alt="Portal" title="Portal">
 <img src="svg/store.svg" width="32" height="32" alt="Store" title="Store">
 <img src="svg/software.svg" width="32" height="32" alt="Software" title="Software">
+<img src="svg/open-source.svg" width="32" height="32" alt="Open source" title="Open source">
+<img src="svg/free.svg" width="32" height="32" alt="Free" title="Free">
+<img src="svg/paid.svg" width="32" height="32" alt="Paid" title="Paid">
+<img src="svg/account.svg" width="32" height="32" alt="Account required" title="Account required">
+<img src="svg/ios.svg" width="32" height="32" alt="iOS" title="iOS">
+<img src="svg/android.svg" width="32" height="32" alt="Android" title="Android">
+<img src="svg/desktop.svg" width="32" height="32" alt="Desktop" title="Desktop">
+<img src="svg/extension.svg" width="32" height="32" alt="Extension" title="Extension">
+<img src="svg/personal.svg" width="32" height="32" alt="Personal" title="Personal">
+<img src="svg/custom.svg" width="32" height="32" alt="Customizable" title="Customizable">
 <img src="svg/ai.svg" width="32" height="32" alt="AI" title="AI">
 <img src="svg/social.svg" width="32" height="32" alt="Social" title="Social">
 <img src="svg/media.svg" width="32" height="32" alt="Media" title="Media">
 <img src="svg/game.svg" width="32" height="32" alt="Games" title="Games">
 <img src="svg/finance.svg" width="32" height="32" alt="Finance" title="Finance">
 <img src="svg/email.svg" width="32" height="32" alt="Email" title="Email">
-<img src="svg/open-source.svg" width="32" height="32" alt="Open source" title="Open source">
-<img src="svg/free.svg" width="32" height="32" alt="Free" title="Free">
-<img src="svg/paid.svg" width="32" height="32" alt="Paid" title="Paid">
 <img src="svg/trial.svg" width="32" height="32" alt="Free trial" title="Free trial">
 <img src="svg/ads.svg" width="32" height="32" alt="Ads" title="Ads">
-<img src="svg/account.svg" width="32" height="32" alt="Account required" title="Account required">
 <img src="svg/web.svg" width="32" height="32" alt="Web" title="Web">
-<img src="svg/ios.svg" width="32" height="32" alt="iOS" title="iOS">
-<img src="svg/android.svg" width="32" height="32" alt="Android" title="Android">
-<img src="svg/desktop.svg" width="32" height="32" alt="Desktop" title="Desktop">
-<img src="svg/extension.svg" width="32" height="32" alt="Extension" title="Extension">
 <img src="svg/nonprofit.svg" width="32" height="32" alt="Nonprofit" title="Nonprofit">
-<img src="svg/personal.svg" width="32" height="32" alt="Personal" title="Personal">
-<img src="svg/custom.svg" width="32" height="32" alt="Customizable" title="Customizable">
 </p>
 
 网址导航、目录、软件目录和应用商店都会在每张卡片上放一排小标签：免费吗，有没有手机应用，要不要注册，有没有需要留意的地方。Sticker Tags 给这些标签一套共用的词表。每个标签有一个编号、一个永久数字编号（TID）、12 种语言的名称和准确的含义，还有一张圆角正方形的样图，小到 14 像素也能分辨。圆角正方形只是样图的形状；实际使用时可以用任何形状显示，例如圆形。
 
 - **Nav.cc 的附属项目：** Sticker Tags 由 [Nav.cc](https://nav.cc) 编辑和维护。
 - **标准正文：** 以 https://nav.cc/standards/sticker-tags/ 上的为准。本仓库存有一份副本：[STANDARD.md](STANDARD.md)（英文，为准）和 [STANDARD.zh-Hans.md](STANDARD.zh-Hans.md)（简体中文译文）。
-- **首批标签：** 30 个，分六组，以后会陆续增加。
+- **标签：** 目前 30 个，按 TID 排成一列，以后会陆续增加。
 
 ## 仓库里有什么
 
@@ -49,7 +49,7 @@
 | --- | --- |
 | `STANDARD.md`、`STANDARD.zh-Hans.md` | 标准正文。 |
 | `svg/` | 每个标签一个 SVG 文件，是 Nav.cc 的画法。 |
-| `tags.json` | 所有标签：TID、编号、分组、12 种语言的名称、含义和 SVG 文件。 |
+| `tags.json` | 所有标签：TID、编号、12 种语言的名称、含义和 SVG 文件。 |
 
 ## 使用
 
