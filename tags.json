@@ -27,7 +27,8 @@
         "en": "The object carries a risk the visitor should be aware of.",
         "zh-Hans": "这个对象有访客应当留意的风险。"
       },
-      "svg": "svg/caution.svg"
+      "svg": "svg/caution.svg",
+      "image": "https://nav.cc/sticker-tags/caution.svg"
     },
     {
       "tid": 1002,
@@ -51,7 +52,8 @@
         "en": "The object is extremely dangerous, or calls for special care.",
         "zh-Hans": "这个对象极度危险，或需要特别当心。"
       },
-      "svg": "svg/danger.svg"
+      "svg": "svg/danger.svg",
+      "image": "https://nav.cc/sticker-tags/danger.svg"
     },
     {
       "tid": 1003,
@@ -75,7 +77,8 @@
         "en": "The object operates in a business that requires a license, and holds a valid license from a regulator.",
         "zh-Hans": "这个对象从事需要牌照的业务，并持有监管机构颁发的有效牌照。"
       },
-      "svg": "svg/licensed.svg"
+      "svg": "svg/licensed.svg",
+      "image": "https://nav.cc/sticker-tags/licensed.svg"
     },
     {
       "tid": 1004,
@@ -99,7 +102,8 @@
         "en": "The object contains content some visitors may not want to see, or that is unsuitable for minors: adult content, graphic violence, drugs, piracy.",
         "zh-Hans": "这个对象含有部分访客可能不想看到、或不适合未成年人的内容：成人、暴力血腥、毒品、盗版。"
       },
-      "svg": "svg/sensitive.svg"
+      "svg": "svg/sensitive.svg",
+      "image": "https://nav.cc/sticker-tags/sensitive.svg"
     },
     {
       "tid": 1005,
@@ -123,7 +127,8 @@
         "en": "Officially run by a government body or public institution.",
         "zh-Hans": "由政府机关或公共机构官方运营。"
       },
-      "svg": "svg/government.svg"
+      "svg": "svg/government.svg",
+      "image": "https://nav.cc/sticker-tags/government.svg"
     },
     {
       "tid": 1006,
@@ -147,7 +152,8 @@
         "en": "Mainly provides teaching, courses, learning or academic resources.",
         "zh-Hans": "主要提供教学、课程、学习或学术资源。"
       },
-      "svg": "svg/education.svg"
+      "svg": "svg/education.svg",
+      "image": "https://nav.cc/sticker-tags/education.svg"
     },
     {
       "tid": 1007,
@@ -171,7 +177,8 @@
         "en": "A media outlet that mainly publishes news reporting.",
         "zh-Hans": "主要发布新闻报道的媒体。"
       },
-      "svg": "svg/news.svg"
+      "svg": "svg/news.svg",
+      "image": "https://nav.cc/sticker-tags/news.svg"
     },
     {
       "tid": 1008,
@@ -195,7 +202,8 @@
         "en": "A search engine or general portal, a place visitors start from to go elsewhere.",
         "zh-Hans": "搜索引擎或综合门户，访客从这里出发去往别处。"
       },
-      "svg": "svg/portal.svg"
+      "svg": "svg/portal.svg",
+      "image": "https://nav.cc/sticker-tags/portal.svg"
     },
     {
       "tid": 1009,
@@ -219,7 +227,8 @@
         "en": "Mainly sells goods or services online, including marketplaces, second-hand, price comparison and delivery platforms.",
         "zh-Hans": "主要在线销售商品或服务，包括电商平台、二手、比价和外卖平台。"
       },
-      "svg": "svg/store.svg"
+      "svg": "svg/store.svg",
+      "image": "https://nav.cc/sticker-tags/store.svg"
     },
     {
       "tid": 1010,
@@ -243,7 +252,8 @@
         "en": "Mainly about software and IT: developer tools, code hosting, developer documentation, cloud services and software products.",
         "zh-Hans": "主要是软件和 IT 相关：开发工具、代码托管、开发文档、云服务和软件产品。"
       },
-      "svg": "svg/software.svg"
+      "svg": "svg/software.svg",
+      "image": "https://nav.cc/sticker-tags/software.svg"
     },
     {
       "tid": 1011,
@@ -267,7 +277,8 @@
         "en": "The object's core software, or its main client, is published as source code under an OSI-approved license.",
         "zh-Hans": "这个对象的核心软件，或主要客户端，以 OSI 认可的许可证公开了源代码。"
       },
-      "svg": "svg/open-source.svg"
+      "svg": "svg/open-source.svg",
+      "image": "https://nav.cc/sticker-tags/open-source.svg"
     },
     {
       "tid": 1012,
@@ -291,7 +302,8 @@
         "en": "The core features can be used free of charge.",
         "zh-Hans": "核心功能可以免费使用。"
       },
-      "svg": "svg/free.svg"
+      "svg": "svg/free.svg",
+      "image": "https://nav.cc/sticker-tags/free.svg"
     },
     {
       "tid": 1013,
@@ -315,7 +327,8 @@
         "en": "The core features have to be paid for: by subscription, by usage or per transaction; or a free tier exists but its core features are unlocked by payment.",
         "zh-Hans": "核心功能要付费：按订阅、按量或按交易收费；或者有免费档，但核心功能要付费解锁。"
       },
-      "svg": "svg/paid.svg"
+      "svg": "svg/paid.svg",
+      "image": "https://nav.cc/sticker-tags/paid.svg"
     },
     {
       "tid": 1014,
@@ -339,7 +352,8 @@
         "en": "An account (sign-up or sign-in) is required to use the core features.",
         "zh-Hans": "使用核心功能必须先注册或登录。"
       },
-      "svg": "svg/account.svg"
+      "svg": "svg/account.svg",
+      "image": "https://nav.cc/sticker-tags/account.svg"
     },
     {
       "tid": 1015,
@@ -363,7 +377,8 @@
         "en": "There is an official iPhone or iPad app.",
         "zh-Hans": "有官方的 iPhone 或 iPad 应用。"
       },
-      "svg": "svg/ios.svg"
+      "svg": "svg/ios.svg",
+      "image": "https://nav.cc/sticker-tags/ios.svg"
     },
     {
       "tid": 1016,
@@ -387,7 +402,8 @@
         "en": "There is an official Android app.",
         "zh-Hans": "有官方的 Android 应用。"
       },
-      "svg": "svg/android.svg"
+      "svg": "svg/android.svg",
+      "image": "https://nav.cc/sticker-tags/android.svg"
     },
     {
       "tid": 1017,
@@ -411,7 +427,8 @@
         "en": "There is an official desktop client for Windows, macOS or Linux.",
         "zh-Hans": "有官方的 Windows、macOS 或 Linux 桌面客户端。"
       },
-      "svg": "svg/desktop.svg"
+      "svg": "svg/desktop.svg",
+      "image": "https://nav.cc/sticker-tags/desktop.svg"
     },
     {
       "tid": 1018,
@@ -435,7 +452,8 @@
         "en": "There is an official browser extension.",
         "zh-Hans": "有官方的浏览器扩展。"
       },
-      "svg": "svg/extension.svg"
+      "svg": "svg/extension.svg",
+      "image": "https://nav.cc/sticker-tags/extension.svg"
     },
     {
       "tid": 1019,
@@ -459,7 +477,8 @@
         "en": "The object was created by an individual or a very small internal team.",
         "zh-Hans": "这个对象由个人或极小的内部团队创建。"
       },
-      "svg": "svg/personal.svg"
+      "svg": "svg/personal.svg",
+      "image": "https://nav.cc/sticker-tags/personal.svg"
     },
     {
       "tid": 1020,
@@ -483,7 +502,8 @@
         "en": "The object supports customization: the visitor can change what it shows.",
         "zh-Hans": "这个对象支持自定义修改：访客可以修改它显示的内容。"
       },
-      "svg": "svg/custom.svg"
+      "svg": "svg/custom.svg",
+      "image": "https://nav.cc/sticker-tags/custom.svg"
     }
   ]
 }

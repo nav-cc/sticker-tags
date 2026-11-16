@@ -42,9 +42,19 @@
 
 ## 使用
 
-任何人都可以出于任何目的（包括商业用途）使用，唯一的条件是注明来源是 Nav.cc。建议的署名写法：
+最简单的办法：nav.cc 把每个标签都做成了图片，始终是当前的画法。标准页上有[每个标签可以直接复制的代码](https://nav.cc/standards/sticker-tags/#use)。
 
-> Sticker Tags，来源：Nav.cc（https://nav.cc/standards/sticker-tags/）
+```html
+<img src="https://nav.cc/sticker-tags/free.svg" width="20" height="20" alt="免费" title="免费">
+```
+
+把 `free` 换成 `tags.json` 里的任何编号即可（`image` 字段给出每个标签的地址）。标签显示不要小于 14 像素。也可以把 `svg/` 里的文件复制到自己的项目里。
+
+任何人都可以出于任何目的（包括商业用途）使用，唯一的条件是在页面上注明一次来源是 Nav.cc：
+
+```html
+标签：<a href="https://nav.cc/standards/sticker-tags/">Sticker Tags（Nav.cc）</a>
+```
 
 正文、词表、图形和数据都按 [CC BY 4.0](LICENSE) 许可。标签怎么用，例如给哪个对象加哪个标签、怎么显示，由使用者自己决定。
 

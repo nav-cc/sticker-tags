@@ -42,9 +42,19 @@ Directories, start pages, catalogs and app stores put a row of small badges on e
 
 ## Using the tags
 
-Use them for any purpose, including commercial use, on one condition: credit Nav.cc as the source. Suggested credit:
+The quickest way: nav.cc serves every tag as an image, always in its current drawing. The standard's page has [each tag's code to copy](https://nav.cc/standards/sticker-tags/#use).
 
-> Sticker Tags, by Nav.cc (https://nav.cc/standards/sticker-tags/)
+```html
+<img src="https://nav.cc/sticker-tags/free.svg" width="20" height="20" alt="Free" title="Free">
+```
+
+Replace `free` with any identifier in `tags.json` (`image` gives each address). Show tags at 14 pixels or more. You can also copy the files in `svg/` into your own project.
+
+Use them for any purpose, including commercial use, on one condition: credit Nav.cc as the source, once on the page:
+
+```html
+Tags: <a href="https://nav.cc/standards/sticker-tags/">Sticker Tags by Nav.cc</a>
+```
 
 The text, the vocabulary, the glyphs and the data are licensed under [CC BY 4.0](LICENSE). How you use the tags, such as which object gets which tag and how you show them, is up to you.
 
