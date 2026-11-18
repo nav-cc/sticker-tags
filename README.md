@@ -2,7 +2,7 @@ English | [简体中文](README.zh-Hans.md)
 
 # Sticker Tags
 
-**Universal attribute tags: an open standard by [Nav.cc](https://nav.cc). Version 1.1.**
+**Universal attribute tags: an open standard by [Nav.cc](https://nav.cc). Version 1.2.**
 
 <p>
 <img src="svg/caution.svg" width="32" height="32" alt="Caution" title="Caution">
@@ -35,13 +35,14 @@ English | [简体中文](README.zh-Hans.md)
 <img src="svg/ads.svg" width="32" height="32" alt="Ads" title="Ads">
 <img src="svg/web.svg" width="32" height="32" alt="Web" title="Web">
 <img src="svg/nonprofit.svg" width="32" height="32" alt="Nonprofit" title="Nonprofit">
+<img src="svg/pending-review.svg" width="32" height="32" alt="Pending review" title="Pending review">
 </p>
 
 Directories, start pages, catalogs and app stores put a row of small badges on each card: is it free, is there a phone app, does it need an account, is there something to be careful about. Sticker Tags gives those badges one shared vocabulary. Each tag has an identifier, a permanent number (TID), names in twelve languages and an exact meaning, and a sample drawing, a rounded square, that can still be told apart at 14 pixels. The rounded square is the shape of the samples; you may show the tags in any shape, a circle for instance.
 
 - **A Nav.cc project:** Sticker Tags is a project of [Nav.cc](https://nav.cc), which edits and maintains it.
 - **The standard:** the canonical text is at https://nav.cc/standards/sticker-tags/. This repository holds a copy: [STANDARD.md](STANDARD.md) (English, canonical) and [STANDARD.zh-Hans.md](STANDARD.zh-Hans.md) (简体中文).
-- **Tags:** 30 so far, in one list by TID. More will follow.
+- **Tags:** 31 so far, in one list by TID. More will follow.
 
 ## What is here
 

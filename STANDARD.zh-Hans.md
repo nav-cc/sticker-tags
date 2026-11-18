@@ -1,6 +1,6 @@
 # Sticker Tags：通用属性标签标准
 
-> **版本 1.1**，Nav.cc 于 2026-11-16 发布。
+> **版本 1.2**，Nav.cc 于 2026-11-19 发布。
 > **地址**：https://nav.cc/standards/sticker-tags/
 > **仓库**：https://github.com/nav-cc/sticker-tags（图形、数据和提议）
 > **以英文版为准**：本文是中文译文，仅供参考；与英文版不一致时，以英文版为准。[阅读英文版](STANDARD.md)
@@ -76,6 +76,7 @@ Sticker Tags 只定义标签本身：
 | <img src="svg/ads.svg" width="48" height="48" alt="Ads" title="Ads"> | <img src="svg/ads.svg" width="24" height="24" alt="Ads" title="Ads"> | <img src="svg/ads.svg" width="14" height="14" alt="Ads" title="Ads"> | 1028 | `ads` | 广告 | 这个对象显示广告。 |
 | <img src="svg/web.svg" width="48" height="48" alt="Web" title="Web"> | <img src="svg/web.svg" width="24" height="24" alt="Web" title="Web"> | <img src="svg/web.svg" width="14" height="14" alt="Web" title="Web"> | 1029 | `web` | 网页版 | 有官方的网页版：在浏览器里就能使用核心功能，不用安装。 |
 | <img src="svg/nonprofit.svg" width="48" height="48" alt="Nonprofit" title="Nonprofit"> | <img src="svg/nonprofit.svg" width="24" height="24" alt="Nonprofit" title="Nonprofit"> | <img src="svg/nonprofit.svg" width="14" height="14" alt="Nonprofit" title="Nonprofit"> | 1030 | `nonprofit` | 非营利 | 这个对象由非营利组织运营。 |
+| <img src="svg/pending-review.svg" width="48" height="48" alt="Pending review" title="Pending review"> | <img src="svg/pending-review.svg" width="24" height="24" alt="Pending review" title="Pending review"> | <img src="svg/pending-review.svg" width="14" height="14" alt="Pending review" title="Pending review"> | 1031 | `pending-review` | 待审核 | 这个对象尚未经使用者仔细审核。 |
 
 ## 6. 外观
 
@@ -148,3 +149,4 @@ Sticker Tags 只定义标签本身：
 | 1028 | `ads` | Ads | Publicité | Anuncios | إعلانات | Anúncios | Реклама | Werbung | 広告あり | 광고 | Διαφημίσεις | 广告 | 廣告 |
 | 1029 | `web` | Web | Web | Web | ويب | Web | Веб | Web | ウェブ版 | 웹 | Web | 网页版 | 網頁版 |
 | 1030 | `nonprofit` | Nonprofit | Non lucratif | Sin ánimo de lucro | غير ربحي | Sem fins lucrativos | Некоммерческий | Gemeinnützig | 非営利 | 비영리 | Μη κερδοσκοπικό | 非营利 | 非營利 |
+| 1031 | `pending-review` | Pending review | En attente de vérification | Pendiente de revisión | قيد المراجعة | Revisão pendente | Ожидает проверки | Prüfung ausstehend | 審査待ち | 검토 대기 | Εκκρεμεί έλεγχος | 待审核 | 待審核 |

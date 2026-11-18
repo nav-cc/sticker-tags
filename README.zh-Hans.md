@@ -2,7 +2,7 @@
 
 # Sticker Tags
 
-**通用属性标签：由 [Nav.cc](https://nav.cc) 发起的开放标准。版本 1.1。**
+**通用属性标签：由 [Nav.cc](https://nav.cc) 发起的开放标准。版本 1.2。**
 
 <p>
 <img src="svg/caution.svg" width="32" height="32" alt="Caution" title="Caution">
@@ -35,13 +35,14 @@
 <img src="svg/ads.svg" width="32" height="32" alt="Ads" title="Ads">
 <img src="svg/web.svg" width="32" height="32" alt="Web" title="Web">
 <img src="svg/nonprofit.svg" width="32" height="32" alt="Nonprofit" title="Nonprofit">
+<img src="svg/pending-review.svg" width="32" height="32" alt="Pending review" title="Pending review">
 </p>
 
 网址导航、目录、软件目录和应用商店都会在每张卡片上放一排小标签：免费吗，有没有手机应用，要不要注册，有没有需要留意的地方。Sticker Tags 给这些标签一套共用的词表。每个标签有一个编号、一个永久数字编号（TID）、12 种语言的名称和准确的含义，还有一张圆角正方形的样图，小到 14 像素也能分辨。圆角正方形只是样图的形状；实际使用时可以用任何形状显示，例如圆形。
 
 - **Nav.cc 的附属项目：** Sticker Tags 由 [Nav.cc](https://nav.cc) 编辑和维护。
 - **标准正文：** 以 https://nav.cc/standards/sticker-tags/ 上的为准。本仓库存有一份副本：[STANDARD.md](STANDARD.md)（英文，为准）和 [STANDARD.zh-Hans.md](STANDARD.zh-Hans.md)（简体中文译文）。
-- **标签：** 目前 30 个，按 TID 排成一列，以后会陆续增加。
+- **标签：** 目前 31 个，按 TID 排成一列，以后会陆续增加。
 
 ## 仓库里有什么
 

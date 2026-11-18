@@ -1,6 +1,6 @@
 # Sticker Tags: Universal Attribute Tags
 
-> **Version 1.1**, published 2026-11-16 by Nav.cc.
+> **Version 1.2**, published 2026-11-19 by Nav.cc.
 > **Address:** https://nav.cc/standards/sticker-tags/
 > **Repository:** https://github.com/nav-cc/sticker-tags (glyphs, data and proposals)
 > **Canonical language:** English. Translations are informative; where they differ, this text prevails.
@@ -76,6 +76,7 @@ All tags are listed together, in the order of their TIDs. Each tag has an identi
 | <img src="svg/ads.svg" width="48" height="48" alt="Ads" title="Ads"> | <img src="svg/ads.svg" width="24" height="24" alt="Ads" title="Ads"> | <img src="svg/ads.svg" width="14" height="14" alt="Ads" title="Ads"> | 1028 | `ads` | Ads | The object shows ads. |
 | <img src="svg/web.svg" width="48" height="48" alt="Web" title="Web"> | <img src="svg/web.svg" width="24" height="24" alt="Web" title="Web"> | <img src="svg/web.svg" width="14" height="14" alt="Web" title="Web"> | 1029 | `web` | Web | There is an official web version: the core features work in a browser, with nothing to install. |
 | <img src="svg/nonprofit.svg" width="48" height="48" alt="Nonprofit" title="Nonprofit"> | <img src="svg/nonprofit.svg" width="24" height="24" alt="Nonprofit" title="Nonprofit"> | <img src="svg/nonprofit.svg" width="14" height="14" alt="Nonprofit" title="Nonprofit"> | 1030 | `nonprofit` | Nonprofit | The object is run by a nonprofit organization. |
+| <img src="svg/pending-review.svg" width="48" height="48" alt="Pending review" title="Pending review"> | <img src="svg/pending-review.svg" width="24" height="24" alt="Pending review" title="Pending review"> | <img src="svg/pending-review.svg" width="14" height="14" alt="Pending review" title="Pending review"> | 1031 | `pending-review` | Pending review | The object has not yet been carefully reviewed by the user. |
 
 ## 6. Appearance
 
@@ -148,3 +149,4 @@ This appendix is informative. These are the names Nav.cc uses.
 | 1028 | `ads` | Ads | Publicité | Anuncios | إعلانات | Anúncios | Реклама | Werbung | 広告あり | 광고 | Διαφημίσεις | 广告 | 廣告 |
 | 1029 | `web` | Web | Web | Web | ويب | Web | Веб | Web | ウェブ版 | 웹 | Web | 网页版 | 網頁版 |
 | 1030 | `nonprofit` | Nonprofit | Non lucratif | Sin ánimo de lucro | غير ربحي | Sem fins lucrativos | Некоммерческий | Gemeinnützig | 非営利 | 비영리 | Μη κερδοσκοπικό | 非营利 | 非營利 |
+| 1031 | `pending-review` | Pending review | En attente de vérification | Pendiente de revisión | قيد المراجعة | Revisão pendente | Ожидает проверки | Prüfung ausstehend | 審査待ち | 검토 대기 | Εκκρεμεί έλεγχος | 待审核 | 待審核 |

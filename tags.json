@@ -1,6 +1,6 @@
 {
   "standard": "Sticker Tags",
-  "version": "1.1",
+  "version": "1.2",
   "url": "https://nav.cc/standards/sticker-tags/",
   "license": "CC-BY-4.0",
   "credit": "Sticker Tags, by Nav.cc (https://nav.cc/standards/sticker-tags/)",
@@ -724,6 +724,30 @@
       },
       "svg": "svg/nonprofit.svg",
       "image": "https://nav.cc/sticker-tags/nonprofit.svg"
+    },
+    {
+      "tid": 1031,
+      "id": "pending-review",
+      "names": {
+        "en": "Pending review",
+        "fr": "En attente de vérification",
+        "es": "Pendiente de revisión",
+        "ar": "قيد المراجعة",
+        "pt": "Revisão pendente",
+        "ru": "Ожидает проверки",
+        "de": "Prüfung ausstehend",
+        "ja": "審査待ち",
+        "ko": "검토 대기",
+        "el": "Εκκρεμεί έλεγχος",
+        "zh-Hans": "待审核",
+        "zh-Hant": "待審核"
+      },
+      "meaning": {
+        "en": "The object has not yet been carefully reviewed by the user.",
+        "zh-Hans": "这个对象尚未经使用者仔细审核。"
+      },
+      "svg": "svg/pending-review.svg",
+      "image": "https://nav.cc/sticker-tags/pending-review.svg"
     }
   ]
 }
